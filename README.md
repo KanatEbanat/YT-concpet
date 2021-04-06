@@ -1,1 +1,8 @@
-# YT-concpet
+# YT-concpet - учебный проект Glo Academy
+Проект выполнил: Кирилл Люткин
+
+## Используемые технологии
+- HTML
+- CSS
+- Normolize.ss
+- SVG Sprite
