@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+.header{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 32px;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-button{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F2F9FB;
+    width: 20px;
+    height: 17px;
+    border: none;
+    margin-right: 28px;
+    cursor: pointer ;
+}
+
+.menu-line{
+    background: #1F2022;
+    display: block;
+    width: 20px;
+    height: 3px;
+    border-radius: 20px;
+}
+
+.input-group{
+    background: #EBEBEB;
+    border-radius: 22px;
+    max-width: 830px;
+    height: 44px;
+    margin-left: 59px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 18px;
+    align-items: center;
+    width: 50%;
+}
+
+.input-search{
+    border: none;
+    background-color: transparent;
+    padding-left: 23px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 23px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.button-search{
+    border: none;
+    width: 18.21px;
+    height: 18.21px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.icon{
+    fill: #000;
+}
+
+.icons-links{
+    opacity: 0.24;
+    text-decoration: none;
+}
+.icons-links:hover{
+    opacity: 0.7;
+}
+.icons-links:not(:last-child){
+    margin-right: 50px;
+}
+.icons-block{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.user-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.user{
+    margin-left: 45px;
+}
+
