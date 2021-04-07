@@ -4,15 +4,19 @@
 
 body{
     background-color: #FFFFFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .header{
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-left: 32px;
     padding-right: 70px;
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .menu-button{
@@ -57,6 +61,7 @@ body{
     padding-bottom: 12px;
     padding-right: 23px;
     font-family: 'Mulish', sans-serif;
+    width: 100%;
 }
 
 .button-search{
@@ -81,17 +86,71 @@ body{
 .icons-links:not(:last-child){
     margin-right: 50px;
 }
+
 .icons-block{
     display: flex;
     align-items: center;
     margin-left: auto;
 }
+
 .user-avatar{
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
+
 .user{
     margin-left: 45px;
+}
+
+.aside-menu{
+    padding-left: 32px;
+}
+
+.nav-menu{
+    margin-top: 0px;
+    margin-bottom: 58px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+.nav-item{
+    padding-bottom: 28px;
+    color: #898989;
+}
+
+.nav-item .icon{
+    fill: #898989;
+}
+
+.nav-text{
+    margin-left: 13px;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #898989;
+}
+
+.nav-link:hover{
+    color: #FF0000;
+}
+
+.nav-link:hover .icon{
+    fill: #FF0000;
+}
+
+.nav-image{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+h2{
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
 }
 
